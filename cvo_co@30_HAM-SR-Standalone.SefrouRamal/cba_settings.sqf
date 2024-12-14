@@ -746,6 +746,10 @@ force CVO_SET_loadPlayerLoadoutOnRespawn = true;
 force CVO_SET_savePlayerLoadoutAtStartBool = true;
 force CVO_SET_savePlayerLoadoutAtStartDelay = 30;
 
+// CVO
+force CVO_SET_music_delay_min = 0;
+force CVO_SET_music_delay_random = 0;
+
 // CVO - Intel
 force CVO_SET_Intel_Flag_initial_Black = false;
 force CVO_SET_Intel_Flag_initial_Blue = true;

@@ -19,3 +19,8 @@ if !(isNil "texture_01") then {
 _condition = { ! isNil "ACE_weather_temperatureShift" && { ! isNil "ACE_weather_temperatureShift" } };                // condition - Needs to return bool
 _statement = { [ { ACE_weather_temperatureShift = ACE_weather_temperatureShift + CVO_temperatureShift; } , [], 10] call CBA_fnc_waitAndExecute; };                // Code to be executed once condition true
 [_condition, _statement, [], 120, _statement] call CBA_fnc_waitUntilAndExecute;
+
+
+_condition = { missionNamespace getVariable ["trigger_player_inPosition", false] };
+_statement = { playMusic "music_darkaction_full_RF" };
+[_condition, _statement] call CBA_fnc_waitUntilAndExecute;

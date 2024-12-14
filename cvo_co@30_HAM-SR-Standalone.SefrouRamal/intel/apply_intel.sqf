@@ -121,6 +121,17 @@ Messenger App History with 'Dad' - 1 year ago:%1</font>%1
 "<br />"
 ];
 
+private _intel_str_ion_cellphone_prisoner_intel = format [
+"
+<font size='14' face='EtelkaMonospacePro'>
+Messenger App History with 'unkown' - yesterday:%1</font>%1
+<font size='12' color='#2dc492' face='EtelkaMonospacePro'>We are very pleased with your last shipment.</font>%1%1
+<font size='12' color='#2d97fa' face='EtelkaMonospacePro'>You better are! Now tell us the Coordinates!</font>%1%1
+<font size='12' color='#2dc492' face='EtelkaMonospacePro'>As you wish, my friend - 007-950!</font>%1%1
+",
+"<br />"
+];
+
 private _intel_str_sfia_cellphone = format [
 "
 <img width='350' image='%2'/>%1%1
@@ -598,6 +609,17 @@ private _intelParameters = createHashMapFromArray [
             15,     //duration in seconds
             "SFIA Cellphone: Unknown",
             _intel_str_sfia_cellphone
+        ]
+    ],
+    [
+        "intel_cellphone_ion_prisoner_intel",
+        [
+            true,
+            "Search the Cellphone for Intel",
+            _soundPC,     // Array of Strings - Classnames for _actionSounds - see comment above
+            15,     //duration in seconds
+            "Laptop Message: Package?",
+            _intel_str_ion_cellphone_prisoner_intel
         ]
     ],
     [

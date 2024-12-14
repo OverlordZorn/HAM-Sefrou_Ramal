@@ -50,7 +50,7 @@ _statement = {
 
 
         [ { missionNamespace setVariable ["trigger_alarm_heli", true, true]; } , [], 60] call CBA_fnc_waitAndExecute;
-        [ { missionNamespace setVariable ["trigger_alarm_quad", true, true]; } , [], 15] call CBA_fnc_waitAndExecute;
+        [ { missionNamespace setVariable ["trigger_alarm_quad", true, true]; } , [], 5] call CBA_fnc_waitAndExecute;
         [ { missionNamespace setVariable ["trigger_alarm_offroad", true, true]; } , [], 90] call CBA_fnc_waitAndExecute;
     };
     

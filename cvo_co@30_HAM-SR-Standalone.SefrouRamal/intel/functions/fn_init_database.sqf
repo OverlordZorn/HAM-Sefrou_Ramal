@@ -52,7 +52,8 @@ intel_database = createHashMapFromArray [
     ["Daltgreen Pumphouse", [
         "intel_note_dump",
         "intel_whiteboard_map",
-        "intel_whiteboard_science"
+        "intel_whiteboard_science",
+        "intel_cellphone_ion_prisoner_intel"
     ]]
 ];
 

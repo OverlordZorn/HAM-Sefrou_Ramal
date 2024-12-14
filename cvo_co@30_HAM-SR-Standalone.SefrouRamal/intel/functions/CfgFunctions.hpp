@@ -14,5 +14,7 @@ class zrn
 
         class switch_layers { postInit = 1; };
         class trigger_alarm { postInit = 1; };
+
+        class timecontrol {};
     };
 };
